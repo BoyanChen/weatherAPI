@@ -7,7 +7,7 @@ $(".getWeatherBtn").click(function () {
     var userInput = $("#userInput").val();
     console.log(userInput);
     $.ajax({
-        url: "http://api.openweathermap.org/data/2.5/weather?q=" + userInput + "&units=metric&APPID=6fa6de6de43af0df4ccee63e856364e7",
+        url: "https://api.openweathermap.org/data/2.5/weather?q=" + userInput + "&units=metric&APPID=6fa6de6de43af0df4ccee63e856364e7",
         type: "GET",
         dataType: "jsonp",
         success: function (data) {
