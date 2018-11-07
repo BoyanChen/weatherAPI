@@ -1,0 +1,44 @@
+body{
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: pink;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.getWeatherBtn{
+    cursor: pointer;
+    margin-left: 45%;
+    width: 10%;
+    height: 40px;
+    border: solid black 2px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+.weatherInfo{
+    width: 30%;
+    height: 600px;
+    margin-left: 35%;
+    /*border: solid black 2px;*/
+}
+#userInput{
+    width: 30%;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.temp{
+    display: inline-block;
+    /*border: solid black 2px;*/
+    width: 30%;
+    height: 30px;
+    line-height: 30px;
+}
+
+.img{
+    margin-top: 40px;
+}
